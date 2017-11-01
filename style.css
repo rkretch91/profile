@@ -1,0 +1,99 @@
+body {
+  background-color: #2094f8;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  color: #4F544E;
+}
+
+h1, h2 {
+  font-family: 'Libre Franklin', sans-serif;
+  color: #4F544E;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  color: #4F544E;
+}
+
+.btn-yellow {
+  background-color: #bb71a3;
+  text-decoration: none;
+  color: white;
+  font-weight: 400i;
+  font-family: 'Libre Franklin', sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn-yellow:hover {
+  background-color: #9e5e89;
+  color: white;
+}
+
+.card {
+  background-color: #F8FAF7;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  padding: 27px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 3px #4F544E;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #4F544E;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+a:hover {
+  color: #bb71a3;
+}
+
+.icon-size {
+  font-size: 30px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.image-size {
+    width: 80%;
+    height: auto;
+}
+
+#sidebar {
+  position: fixed;
+  width: 70px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #4F544E;
+}
+#page-content {
+  margin-left: 300px;
+}
+
+.sidebar-icon a {
+  color: white;
+  width: 30px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  font-size: 30px;
+}
+
