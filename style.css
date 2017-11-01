@@ -53,7 +53,7 @@ h3 {
 a {
   text-decoration: none;
   color: #4F544E;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 a:hover {
@@ -85,15 +85,21 @@ a:hover {
   bottom: 0;
   background-color: #4F544E;
 }
-#page-content {
-  margin-left: 300px;
+
+#sidebar a{
+  color: white;
+  font-size: 30px;
+  padding: 50px 20px;
+  line-height: 60px;
 }
 
-.sidebar-icon a {
-  color: white;
-  width: 30px;
-  margin: 0 auto;
-  padding: 50px 20px;
-  font-size: 30px;
+#sidebar a:hover{
+  color: grey
 }
+
+#page-content {
+  margin-left: 100px;
+  color: white;
+}
+
 
